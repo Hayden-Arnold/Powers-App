@@ -10,7 +10,7 @@ In this project I will be using a mixture of React, JavaScript and CSS to make a
 
 What my application will look like:
 
-![alt text](https://cdn1.bbcode0.com/uploads/2021/12/2/3eb4eb5cdba5f4b201cce41c54da0fcd-full.png)
+![alt text](file:///home/haydo/Pictures/Screenshot%20from%202021-12-01%2013-40-32.png)
 
 ## Component Hierarchy
 
