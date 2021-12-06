@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# Powers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an application that lets my friends share their social media links with our group of friends.
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+In this project I will be using a mixture of React, JavaScript and CSS to make an application for my friends and I. The API I will be using comes from Airtable (https://airtable.com/). The purpose of this app is to make some of our social media links easy and more accessible to our friend group. Here you will be able to see other peoples information and also upload your own.
 
-### `npm start`
+## Wireframes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+What my application will look like:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![alt text](https://cdn1.bbcode0.com/uploads/2021/12/2/3eb4eb5cdba5f4b201cce41c54da0fcd-full.png)
 
-### `npm test`
+## Component Hierarchy
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+What my page Hierarchy will look like:
 
-### `npm run build`
+![alt text](https://i.ibb.co/k6s5L92/Screenshosadwadasdawt-from-2021-12-02-14-59-32.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API and Data Sample
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+My API:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+My data sample:
 
-### `npm run eject`
+````{
+"records": [
+{
+"id": "recINDT0EChkcSBfS",
+"fields": {},
+"createdTime": "2021-12-01T21:08:30.000Z"
+},
+{
+"id": "recNBOqOLXhdOLI7W",
+"fields": {
+"code": "212979961",
+"name": "Haydo",
+"discord": "Haydo#0299",
+"steam": "Haydo"
+},
+"createdTime": "2021-12-01T21:08:30.000Z"
+},
+{
+"id": "recu8Fd5MPpe4xk0T",
+"fields": {},
+"createdTime": "2021-12-01T21:08:30.000Z"
+}
+]
+}```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### MVP/PostMVP
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### MVP
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- A home page with two working buttons.
+- Post new user info and display current user info on page.
+- Make github and linkden urls work.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### PostMVP
 
-## Learn More
+- Styling to make it look exactly as seen on my wireframe.
+- Get user data to display horizontally on desktop and vertical on mobile.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Schedule
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Day        | Deliverable                                        | Status     |
+| ---------- | -------------------------------------------------- | ---------- |
+| December 1 | Prompt / Wireframes / Priority Matrix / Timeframes | Complete   |
+| December 2 | Project Approval                                   | Incomplete |
+| December 3 | Application Structure                              | Incomplete |
+| December 4 | More structure / Debugging                         | Incomplete |
+| December 5 | MVP                                                | Incomplete |
+| December 6 | Styling                                            | Incomplete |
+| December 7 | More Styling                                       | Incomplete |
+| December 8 | Any odd ends                                       | Incomplete |
+| December 9 | Presentations                                      | Incomplete |
 
-### Code Splitting
+## Timeframes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Component        | Priority | Estimated Time | Time Invested |
+| ---------------- | :------: | :------------: | :-----------: |
+| Proposal         |    H     |      2hrs      |      hrs      |
+| Working with API |    H     |      4hrs      |      hrs      |
+| Top bar          |    L     |      2hrs      |      hrs      |
+| Background       |    L     |      2hrs      |      hrs      |
+| New Profile      |    H     |      4hrs      |      hrs      |
+| Name input       |    H     |      3hrs      |      hrs      |
+| Inputs x3        |    H     |      4hrs      |      hrs      |
+| Submit button    |    H     |      3hrs      |      hrs      |
+| Existing Profile |    H     |      3hrs      |      hrs      |
+| Display Name     |    H     |      3hrs      |      hrs      |
+| Display info     |    H     |      3hrs      |      hrs      |
+| Display layouts  |    L     |      2hrs      |      hrs      |
+| random problems  |    H     |      4hrs      |      hrs      |
+| Total            |    H     |     39hrs      |      hrs      |
 
-### Analyzing the Bundle Size
+## SWOT Analysis
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Strengths:
 
-### Making a Progressive Web App
+I understand what I want to make of my application. I understand the core concepts and I feel comfortable with the large majority of the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Weaknesses:
 
-### Advanced Configuration
+Styling is my weakness right now. I have not had enough practice yet and I know certain styles will be more difficult to produce then working with the functionality of my project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Opportunities:
 
-### Deployment
+Learning react has been a combination of 2 weeks, or roughly 120+ hours of work and many long nights. But with this project I will solitify my understanding of both react and more JavaScript/CSS. I will use this as a way to push my limits within react and hopefully use it as a valuable lesson in coding.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Threats:
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Making this application to the height I want it to be within the time limit I have.
+````
