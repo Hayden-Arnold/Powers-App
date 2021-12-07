@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,69 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  background: #f0f0f0;
+  color: #303030;
+  text-align: center;
+  justify-content: center;
+  background-image: url("https://i.ibb.co/ZYrPHmp/f4c2a708f62dd7aabcc763f53e20cf8b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.nav {
+  padding: 40px;
+}
+.nav .pow {
+  padding: 40px;
+}
+.nav .new {
+}
+.nav .exi {
+  padding: 40px;
+}
+/*
+img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.header {
+  padding: 60px;
+  height: 100px;
+  margin-bottom: 0px;
+}
+.body {
+  background: white;
+  text-align: center;
+  margin-top: 75px;
+  border: solid;
+}
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  background: white;
+  border: solid;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.body a {
+  text-align: center;
+}
+.navbar .right a {
+  float: right;
+}
+
+ {
+  float: right;
+} */

@@ -23,7 +23,8 @@ return (
   <div className="App">
     <Navbar />
     <Routes>
-      <Route path='/' element={<Resps resps={resps}/>} />
+      <Route path='/' element="" />
+      <Route path='/current' element={<Resps resps={resps}/>} />
       <Route path='/new' element={<Form setToggle={setToggle}/>}/>
       <Route path='/resps/:id' element={<Resp resps={resps} setToggle={setToggle}/>}/>
   </Routes>

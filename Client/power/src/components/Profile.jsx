@@ -3,10 +3,10 @@ import { postResp } from '../services'
 import { useNavigate, useParams } from 'react-router-dom'
 
 export default function Form(props) {
-  const [title, setTitle] = useState('')
+  const [name, setName] = useState('')
   const [discord, setDiscord] = useState('')
   const [steam, setSteam] = useState('')
-  const [steamC, setSteamC] = useState('')
+  const [code, setCode] = useState('')
   const navigate = useNavigate()
   const params = useParams()
 
@@ -15,36 +15,36 @@ export default function Form(props) {
       return resp.id === params.id
     })
     if (foundResp) {
-      setTitle(foundResp.fields.title)
+      setName(foundResp.fields.title)
       setDiscord(foundResp.fields.discord)
       setSteam(foundResp.fields.steam)
-      setSteamC(foundResp.fields.steamC)
+      setCode(foundResp.fields.code)
     }
   }, [params.id, props.resps])
 
   const handleSubmit = async (e) => {
     e.preventDefault()
     const newResp = {
-      title,
+      name,
       discord,
       steam,
-      steamC
+      code
     }
     const response = await postResp(newResp)
     props.setToggle(prevToggle => !prevToggle)
     if (response) {
-      navigate('/')
+      navigate('/current')
       // Will change this ^ (navigate('/'))
-  }
+    }
 }
 return (
   <form onSubmit={handleSubmit}>
     <h1>New Profile</h1>
     <input
       type='text'
-      value={title}
+      value={name}
       name='Name:'
-      onChange={(e) => setTitle(e.target.value)}
+      onChange={(e) => setName(e.target.value)}
     />
     <input
       type='text'
@@ -60,9 +60,9 @@ return (
     />
     <input
       type='text'
-      value={steamC}
+      value={code}
       name='Steam Code:'
-      onChange={(e) => setSteamC(e.target.value)}
+      onChange={(e) => setCode(e.target.value)}
     />
     <button>Submit :D</button>
   </form>
