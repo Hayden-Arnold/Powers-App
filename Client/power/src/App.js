@@ -15,7 +15,6 @@ useEffect(() => {
   const getAllResps = async () => {
     const response = await grabResps()
     setResps(response)
-    console.log(response)
   }
   getAllResps()
 }, [toggle])
