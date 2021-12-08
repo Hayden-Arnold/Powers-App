@@ -38,32 +38,37 @@ export default function Form(props) {
     }
 }
 return (
-  <form onSubmit={handleSubmit}>
-    <h1>New Profile</h1>
+  <form onSubmit={handleSubmit} className="newpro">
+    <h2>New Profile</h2>
+    <p>Name:</p>
     <input
       type='text'
       value={name}
       name='Name:'
       onChange={(e) => setName(e.target.value)}
     />
+    <p>Discord:</p>
     <input
       type='text'
       value={discord}
       name='Discord:'
       onChange={(e) => setDiscord(e.target.value)}
     />
+    <p>Your Steam:</p>
     <input
       type='text'
       value={steam}
       name='Steam:'
       onChange={(e) => setSteam(e.target.value)}
     />
+    <p>Steam Code:</p>
     <input
       type='text'
       value={code}
       name='Steam Code:'
       onChange={(e) => setCode(e.target.value)}
     />
+    <br />
     <button>Submit :D</button>
   </form>
   )

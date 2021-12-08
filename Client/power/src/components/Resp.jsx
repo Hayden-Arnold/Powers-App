@@ -14,7 +14,7 @@ export default function Resp(props) {
 
   return (
   <div>
-    <h2>{resp?.fields?.title}</h2>
+    <h2>{resp?.fields?.name}</h2>
       <p> {resp?.fields?.discord}
           {resp?.fields?.steam}
           {resp?.fields?.code}</p>
