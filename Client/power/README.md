@@ -6,6 +6,8 @@ This is an application that lets my friends share their social media links with 
 
 In this project I will be using a mixture of React, JavaScript and CSS to make an application for my friends and I. The API I will be using comes from Airtable (https://airtable.com/). The purpose of this app is to make some of our social media links easy and more accessible to our friend group. Here you will be able to see other peoples information and also upload your own.
 
+Here is the deployed site!: https://61b12b98d47e58000872f485--powersapp.netlify.app/
+
 ## Wireframes
 
 What my application will look like:
